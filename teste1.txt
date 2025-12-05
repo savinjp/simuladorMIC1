@@ -1,0 +1,13 @@
+INICIO: LOCO 1
+        STOD 50      / Mem[50] = 1
+
+        LOCO 4       
+
+
+LOOP:   JZER 12
+        
+        SUBD 50
+        
+        JUMP 6 
+
+FIM:    HALT
